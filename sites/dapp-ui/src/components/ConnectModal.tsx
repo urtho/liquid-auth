@@ -60,14 +60,14 @@ export function ConnectModal({
           },
           {
             urls: [
-              "turn:global.relay.metered.ca:80",
-              "turn:global.relay.metered.ca:80?transport=tcp",
-              "turn:global.relay.metered.ca:443",
-              "turns:global.relay.metered.ca:443?transport=tcp"
+              "turn:eu.turn.nodely.io:80?transport=tcp",
+              "turns:eu.turn.nodely.io:443?transport=tcp",
+              "turn:us.turn.nodely.io:80?transport=tcp",
+              "turns:us.turn.nodely.io:443?transport=tcp",
             ],
-            username: "fc7708976bf5d60be20c5a1d",
-            credential: "sVpEREQGGhXOw4gX",
-          },
+            username: "liquid-auth",
+            credential: "sqmcP4MiTKMT4TGEDSk9jgHY",
+        },
         ],
         iceCandidatePoolSize: 10,
       })
